@@ -19,8 +19,8 @@ if __name__ == "__main__":
     l2_1.next = l2_2
     l2_2.next = l2_3
 
-    Sol = Solution()
-    sum = Sol.addTwoNumbers(l1_1, l2_1)
+    sol = Solution()
+    sum = sol.addTwoNumbers(l1_1, l2_1)
 
     while True:
         print(sum.val)
